@@ -7,7 +7,9 @@ authors = [
     { name = "AbhiMokashi01", email = "abhishekmokashi0102@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "python-dotenv>=1.2.4",
+]
 
 [project.scripts]
 ai-studybuddy = "ai_studybuddy:main"
